@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BigEnemyMode")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6e942625027b16b32de5bd81ba19738a026907dc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b1e739c4bade0da55678467a3aa64f93c08c5dfc")]
 [assembly: System.Reflection.AssemblyProductAttribute("BigEnemyMode")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BigEnemyMode")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

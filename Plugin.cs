@@ -8,7 +8,7 @@ namespace BigEnemyMode
     [BepInPlugin(MyPluginInfo.PLUGIN_GUID, MyPluginInfo.PLUGIN_NAME, MyPluginInfo.PLUGIN_VERSION)]
     public class Plugin : BasePlugin
     {
-        internal static ManualLogSource Log = null!;
+        new internal static ManualLogSource Log = null!;
         private Harmony? _harmony;
 
         public override void Load()
