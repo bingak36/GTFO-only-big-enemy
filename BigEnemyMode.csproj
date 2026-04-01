@@ -1,0 +1,59 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <AssemblyName>BigEnemyMode</AssemblyName>
+    <RootNamespace>BigEnemyMode</RootNamespace>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <!-- 빌드 결과물을 BepInEx plugins 폴더로 자동 복사하려면 아래 경로를 수정하세요 -->
+    <!--
+    <OutputPath>C:\Steam\steamapps\common\GTFO\BepInEx\plugins\BigEnemyMode\</OutputPath>
+    -->
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- BepInEx 6 IL2CPP NuGet 패키지 -->
+    <PackageReference Include="BepInEx.Unity.IL2CPP" Version="6.*" />
+  </ItemGroup>
+
+  <!--
+    ============================================================
+    GTFO 게임 DLL 참조 설정
+    게임 설치 후 아래 경로에 있는 interop DLL들을 참조해야 합니다.
+
+    일반적인 경로:
+      GTFO 폴더\BepInEx\interop\
+
+    주요 DLL:
+      - Assembly-CSharp.dll  (게임 코어 로직)
+      - GameData.dll         (DataBlock 시스템)
+      - UnityEngine.CoreModule.dll
+
+    아래 GameDLLPath 변수를 실제 경로로 변경하세요.
+    ============================================================
+  -->
+  <PropertyGroup>
+    <GameDLLPath>C:\Steam\steamapps\common\GTFO\BepInEx\interop</GameDLLPath>
+  </PropertyGroup>
+
+  <ItemGroup Condition="Exists('$(GameDLLPath)')">
+    <Reference Include="Assembly-CSharp">
+      <HintPath>$(GameDLLPath)\Assembly-CSharp.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="GameData">
+      <HintPath>$(GameDLLPath)\GameData.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>$(GameDLLPath)\UnityEngine.CoreModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Il2CppInterop.Runtime">
+      <HintPath>$(GameDLLPath)\Il2CppInterop.Runtime.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+
+</Project>
