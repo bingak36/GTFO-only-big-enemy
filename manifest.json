@@ -1,0 +1,9 @@
+{
+  "name": "BigEnemyMode",
+  "version_number": "1.0.0",
+  "website_url": "",
+  "description": "스트라이커/슈터가 빅 버전으로 교체됩니다. (만우절 모드)",
+  "dependencies": [
+    "BepInEx-BepInExPack_GTFO-3.2.1"
+  ]
+}

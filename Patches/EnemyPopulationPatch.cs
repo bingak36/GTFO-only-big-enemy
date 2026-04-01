@@ -30,33 +30,25 @@ namespace BigEnemyMode.Patches
             foreach (var block in GameDataBlockBase<EnemyPopulationDataBlock>.GetAllBlocks())
             {
                 // 각 블록 안의 population 배열 순회
-                foreach (var entry in block.m_population)
-                {
-                    uint originalID = entry.enemyType.persistentID;
+                for (int i = 0; i < block.m_population.Count; i++) 
+{
+    var entry = block.m_population[i];
+    uint originalID = entry.enemyType.persistentID;
 
-                    if (EnemyIDs.ReplacementMap.TryGetValue(originalID, out uint replacementID))
-                    {
-                        // 교체 대상 EnemyDataBlock 가져오기
-                        var replacementEnemy = GameDataBlockBase<EnemyDataBlock>.GetBlock(replacementID);
-
-                        if (replacementEnemy == null)
-                        {
-                            Plugin.Log.LogWarning(
-                                $"교체 실패: ID={replacementID} 에 해당하는 EnemyDataBlock 을 찾을 수 없습니다. " +
-                                $"EnemyIDs.cs 의 ID 값을 확인하세요."
-                            );
-                            continue;
-                        }
-
-                        Plugin.Log.LogInfo(
-                            $"교체: [{block.name}] {entry.enemyType.name}(ID={originalID}) " +
-                            $"→ {replacementEnemy.name}(ID={replacementID})"
-                        );
-
-                        entry.enemyType = replacementEnemy;
-                        replacedCount++;
-                    }
-                }
+    if (EnemyIDs.ReplacementMap.TryGetValue(originalID, out uint replacementID))
+    {
+        var replacementEnemy = GameDataBlockBase<EnemyDataBlock>.GetBlock(replacementID);
+        if (replacementEnemy != null)
+        {
+            Plugin.Log.LogInfo($"교체: [{block.name}] ID={originalID} → ID={replacementID}");
+            entry.enemyType = replacementEnemy;
+            
+            // 구조체일 경우를 대비하여 원본 리스트/배열에 다시 덮어쓰기
+            block.m_population[i] = entry; 
+            replacedCount++;
+        }
+    }
+}
             }
 
             Plugin.Log.LogInfo($"패치 완료: 총 {replacedCount}개 항목 교체됨.");

@@ -1,0 +1,88 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\qlsl9042\\Documents\\GTFO-MODE\\GTFO-only-big-enemy\\BigEnemyMode.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\qlsl9042\\Documents\\GTFO-MODE\\GTFO-only-big-enemy\\BigEnemyMode.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\qlsl9042\\Documents\\GTFO-MODE\\GTFO-only-big-enemy\\BigEnemyMode.csproj",
+        "projectName": "BigEnemyMode",
+        "projectPath": "C:\\Users\\qlsl9042\\Documents\\GTFO-MODE\\GTFO-only-big-enemy\\BigEnemyMode.csproj",
+        "packagesPath": "C:\\Users\\qlsl9042\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\qlsl9042\\Documents\\GTFO-MODE\\GTFO-only-big-enemy\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\qlsl9042\\Documents\\GTFO-MODE\\GTFO-only-big-enemy\\NuGet.Config",
+          "C:\\Users\\qlsl9042\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.bepinex.dev/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "BepInEx.Unity.IL2CPP": {
+              "target": "Package",
+              "version": "[6.0.0-be.755, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\8.0.419\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

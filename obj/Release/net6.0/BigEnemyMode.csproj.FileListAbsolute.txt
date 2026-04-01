@@ -1,0 +1,6 @@
+C:\Users\qlsl9042\Documents\GTFO-MODE\GTFO-only-big-enemy\obj\Release\net6.0\BigEnemyMode.csproj.AssemblyReference.cache
+C:\Users\qlsl9042\Documents\GTFO-MODE\GTFO-only-big-enemy\obj\Release\net6.0\BigEnemyMode.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\qlsl9042\Documents\GTFO-MODE\GTFO-only-big-enemy\obj\Release\net6.0\BigEnemyMode.AssemblyInfoInputs.cache
+C:\Users\qlsl9042\Documents\GTFO-MODE\GTFO-only-big-enemy\obj\Release\net6.0\BigEnemyMode.AssemblyInfo.cs
+C:\Users\qlsl9042\Documents\GTFO-MODE\GTFO-only-big-enemy\obj\Release\net6.0\BigEnemyMode.csproj.CoreCompileInputs.cache
+C:\Users\qlsl9042\Documents\GTFO-MODE\GTFO-only-big-enemy\obj\Release\net6.0\BigEnemyMode.sourcelink.json

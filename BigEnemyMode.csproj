@@ -14,7 +14,7 @@
 
   <ItemGroup>
     <!-- BepInEx 6 IL2CPP NuGet 패키지 -->
-    <PackageReference Include="BepInEx.Unity.IL2CPP" Version="6.*" />
+    <PackageReference Include="BepInEx.Unity.IL2CPP" Version="6.0.0-be.755" />
   </ItemGroup>
 
   <!--
@@ -34,16 +34,31 @@
     ============================================================
   -->
   <PropertyGroup>
-    <GameDLLPath>C:\Steam\steamapps\common\GTFO\BepInEx\interop</GameDLLPath>
+    <GameDLLPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla-2\BepInEx\interop</GameDLLPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <BepInExCorePath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla-2\BepInEx\core</BepInExCorePath>
   </PropertyGroup>
 
   <ItemGroup Condition="Exists('$(GameDLLPath)')">
-    <Reference Include="Assembly-CSharp">
-      <HintPath>$(GameDLLPath)\Assembly-CSharp.dll</HintPath>
+    <!-- GameDataManager -->
+    <Reference Include="Modules-ASM">
+      <HintPath>$(GameDLLPath)\Modules-ASM.dll</HintPath>
       <Private>false</Private>
     </Reference>
-    <Reference Include="GameData">
-      <HintPath>$(GameDLLPath)\GameData.dll</HintPath>
+    <!-- GameDataBlockBase 등 -->
+    <Reference Include="GlobalFramework-ASM">
+      <HintPath>$(GameDLLPath)\GlobalFramework-ASM.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <!-- GameData namespace (EnemyPopulationDataBlock 등) -->
+    <Reference Include="GameData-ASM">
+      <HintPath>$(GameDLLPath)\GameData-ASM.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Il2Cppmscorlib">
+      <HintPath>$(GameDLLPath)\Il2Cppmscorlib.dll</HintPath>
       <Private>false</Private>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
@@ -51,7 +66,7 @@
       <Private>false</Private>
     </Reference>
     <Reference Include="Il2CppInterop.Runtime">
-      <HintPath>$(GameDLLPath)\Il2CppInterop.Runtime.dll</HintPath>
+      <HintPath>$(BepInExCorePath)\Il2CppInterop.Runtime.dll</HintPath>
       <Private>false</Private>
     </Reference>
   </ItemGroup>
