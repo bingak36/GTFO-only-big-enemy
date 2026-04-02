@@ -1,0 +1,510 @@
+﻿<Project><ItemGroup>
+  <Reference Include="Addons-ASM">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\Addons-ASM.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="AssetPrefabs-ASM">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\AssetPrefabs-ASM.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="Assets-ASM">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\Assets-ASM.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="BlendEnv">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\BlendEnv.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="BlendHS">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\BlendHS.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="CellSound-ASM">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\CellSound-ASM.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="CommandSystem">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\CommandSystem.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="DevConsoleCommands-ASM">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\DevConsoleCommands-ASM.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="DevConsoloe-ASM">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\DevConsoloe-ASM.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="Dissonance-integrations-ASM">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\Dissonance-integrations-ASM.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="DissonanceVoip">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\DissonanceVoip.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="DropServerSDK-ASM">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\DropServerSDK-ASM.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="ExcludeInBuild-ASM">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\ExcludeInBuild-ASM.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="FluffyUnderware.DevTools">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\FluffyUnderware.DevTools.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="FPSRenderer">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\FPSRenderer.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="GameData-ASM">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\GameData-ASM.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="GlobalFramework-ASM">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\GlobalFramework-ASM.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="GUIX-ASM">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\GUIX-ASM.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="Il2CppMono.Security">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\Il2CppMono.Security.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="Il2Cppmscorlib">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\Il2Cppmscorlib.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="Il2CppSystem.Configuration">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\Il2CppSystem.Configuration.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="Il2CppSystem.Core">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\Il2CppSystem.Core.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="Il2CppSystem.Data">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\Il2CppSystem.Data.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="Il2CppSystem.Diagnostics.StackTrace">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\Il2CppSystem.Diagnostics.StackTrace.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="Il2CppSystem">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\Il2CppSystem.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="Il2CppSystem.Globalization.Extensions">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\Il2CppSystem.Globalization.Extensions.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="Il2CppSystem.IO.Compression">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\Il2CppSystem.IO.Compression.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="Il2CppSystem.Net.Http">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\Il2CppSystem.Net.Http.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="Il2CppSystem.Numerics">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\Il2CppSystem.Numerics.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="Il2CppSystem.Runtime">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\Il2CppSystem.Runtime.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="Il2CppSystem.Runtime.Serialization">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\Il2CppSystem.Runtime.Serialization.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="Il2CppSystem.Xml">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\Il2CppSystem.Xml.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="Il2CppSystem.Xml.Linq">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\Il2CppSystem.Xml.Linq.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="LibTessDotNet">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\LibTessDotNet.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="LogUtils">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\LogUtils.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="Modules-ASM">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\Modules-ASM.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="NativeHeap">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\NativeHeap.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="netstandard">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\netstandard.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="Newtonsoft.Json">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\Newtonsoft.Json.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="Notification-ASM">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\Notification-ASM.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="PlayFab-ASM">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\PlayFab-ASM.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="Plugins-ASM">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\Plugins-ASM.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="Prototype">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\Prototype.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="Prototypes_ASM">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\Prototypes_ASM.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="Resources-ASM">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\Resources-ASM.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="RootMotion-ASM">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\RootMotion-ASM.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="Scenes-ASM">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\Scenes-ASM.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="Shards-ASM">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\Shards-ASM.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="SNet_ASM">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\SNet_ASM.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="StandardAssets-ASM">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\StandardAssets-ASM.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="SteamDataAttribution-ASM">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\SteamDataAttribution-ASM.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="SteamWorks_ASM">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\SteamWorks_ASM.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="ToolBuddy.Curvy">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\ToolBuddy.Curvy.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="ToolBuddy.Curvy.Examples">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\ToolBuddy.Curvy.Examples.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="Unity.Analytics.DataPrivacy">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\Unity.Analytics.DataPrivacy.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="Unity.Burst">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\Unity.Burst.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="Unity.Burst.Unsafe">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\Unity.Burst.Unsafe.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="Unity.Collections">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\Unity.Collections.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="Unity.Mathematics">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\Unity.Mathematics.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="Unity.Postprocessing.Runtime">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\Unity.Postprocessing.Runtime.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="Unity.TextMeshPro">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\Unity.TextMeshPro.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="UnityEngine.AccessibilityModule">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\UnityEngine.AccessibilityModule.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="UnityEngine.AIModule">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\UnityEngine.AIModule.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="UnityEngine.AndroidJNIModule">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\UnityEngine.AndroidJNIModule.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="UnityEngine.AnimationModule">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\UnityEngine.AnimationModule.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="UnityEngine.ARModule">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\UnityEngine.ARModule.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="UnityEngine.AssetBundleModule">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\UnityEngine.AssetBundleModule.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="UnityEngine.AudioModule">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\UnityEngine.AudioModule.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="UnityEngine.ClothModule">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\UnityEngine.ClothModule.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="UnityEngine.ClusterInputModule">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\UnityEngine.ClusterInputModule.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="UnityEngine.ClusterRendererModule">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\UnityEngine.ClusterRendererModule.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="UnityEngine.CoreModule">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\UnityEngine.CoreModule.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="UnityEngine.CrashReportingModule">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\UnityEngine.CrashReportingModule.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="UnityEngine.DirectorModule">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\UnityEngine.DirectorModule.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="UnityEngine">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\UnityEngine.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="UnityEngine.DSPGraphModule">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\UnityEngine.DSPGraphModule.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="UnityEngine.GameCenterModule">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\UnityEngine.GameCenterModule.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="UnityEngine.GridModule">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\UnityEngine.GridModule.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="UnityEngine.HotReloadModule">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\UnityEngine.HotReloadModule.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="UnityEngine.ImageConversionModule">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\UnityEngine.ImageConversionModule.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="UnityEngine.IMGUIModule">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\UnityEngine.IMGUIModule.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="UnityEngine.InputLegacyModule">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\UnityEngine.InputLegacyModule.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="UnityEngine.InputModule">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\UnityEngine.InputModule.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="UnityEngine.JSONSerializeModule">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\UnityEngine.JSONSerializeModule.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="UnityEngine.LocalizationModule">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\UnityEngine.LocalizationModule.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="UnityEngine.ParticleSystemModule">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\UnityEngine.ParticleSystemModule.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="UnityEngine.PerformanceReportingModule">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\UnityEngine.PerformanceReportingModule.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="UnityEngine.Physics2DModule">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\UnityEngine.Physics2DModule.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="UnityEngine.PhysicsModule">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\UnityEngine.PhysicsModule.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="UnityEngine.ProfilerModule">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\UnityEngine.ProfilerModule.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="UnityEngine.ScreenCaptureModule">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\UnityEngine.ScreenCaptureModule.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="UnityEngine.SharedInternalsModule">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\UnityEngine.SharedInternalsModule.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="UnityEngine.SpriteMaskModule">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\UnityEngine.SpriteMaskModule.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="UnityEngine.SpriteShapeModule">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\UnityEngine.SpriteShapeModule.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="UnityEngine.StreamingModule">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\UnityEngine.StreamingModule.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="UnityEngine.SubstanceModule">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\UnityEngine.SubstanceModule.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="UnityEngine.SubsystemsModule">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\UnityEngine.SubsystemsModule.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="UnityEngine.TerrainModule">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\UnityEngine.TerrainModule.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="UnityEngine.TerrainPhysicsModule">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\UnityEngine.TerrainPhysicsModule.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="UnityEngine.TextCoreModule">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\UnityEngine.TextCoreModule.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="UnityEngine.TextRenderingModule">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\UnityEngine.TextRenderingModule.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="UnityEngine.TilemapModule">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\UnityEngine.TilemapModule.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="UnityEngine.TLSModule">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\UnityEngine.TLSModule.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="UnityEngine.UI">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\UnityEngine.UI.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="UnityEngine.UIElementsModule">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\UnityEngine.UIElementsModule.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="UnityEngine.UIModule">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\UnityEngine.UIModule.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="UnityEngine.UmbraModule">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\UnityEngine.UmbraModule.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="UnityEngine.UNETModule">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\UnityEngine.UNETModule.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="UnityEngine.UnityAnalyticsModule">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\UnityEngine.UnityAnalyticsModule.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="UnityEngine.UnityConnectModule">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\UnityEngine.UnityConnectModule.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="UnityEngine.UnityTestProtocolModule">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\UnityEngine.UnityTestProtocolModule.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="UnityEngine.UnityWebRequestModule">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\UnityEngine.UnityWebRequestModule.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="UnityEngine.VehiclesModule">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\UnityEngine.VehiclesModule.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="UnityEngine.VFXModule">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\UnityEngine.VFXModule.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="UnityEngine.VideoModule">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\UnityEngine.VideoModule.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="UnityEngine.VRModule">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\UnityEngine.VRModule.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="UnityEngine.WindModule">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\UnityEngine.WindModule.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="UnityEngine.XRModule">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\UnityEngine.XRModule.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="UnityFileDebug-ASM">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\UnityFileDebug-ASM.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="Utils-ASM">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\Utils-ASM.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="Windows-ASM">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\Windows-ASM.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="Wwise-ASM">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\interop\Wwise-ASM.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+  <Reference Include="Il2CppInterop.Runtime">
+    <HintPath>C:\Users\qlsl9042\AppData\Roaming\r2modmanPlus-local\GTFO\profiles\vanilla\BepInEx\core\Il2CppInterop.Runtime.dll</HintPath>
+    <Private>false</Private>
+  </Reference>
+</ItemGroup></Project>

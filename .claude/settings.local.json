@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:gtfo-modding.gitbook.io)",
+      "WebFetch(domain:thunderstore.io)",
+      "WebFetch(domain:wiki.thunderstore.io)",
+      "Bash(powershell -Command \"Get-ChildItem -Path ''C:\\\\'',''D:\\\\'',''E:\\\\'' -Recurse -Filter ''GTFO.exe'' -ErrorAction SilentlyContinue | Select-Object -First 3 -ExpandProperty FullName\")",
+      "Bash(cmd /c \"python C:\\\\Users\\\\qlsl9042\\\\Documents\\\\GTFO-MODE\\\\GTFO-only-big-enemy\\\\generate_icon.py\")",
+      "Bash(powershell -ExecutionPolicy Bypass -File pack.ps1)",
+      "Bash(find /c/Users/qlsl9042/AppData/Roaming/r2modmanPlus-local/GTFO/profiles/vanilla/BepInEx/interop -type f -name *.cs -o -name *.txt -o -name *.xml -o -name *.md)",
+      "Bash(find C:Usersqlsl9042AppDataRoamingr2modmanPlus-localGTFOprofilesvanilla-2BepInExplugins -name *.dll -type f)",
+      "Bash(find /c/Users/qlsl9042/AppData/Roaming/r2modmanPlus-local/GTFO/cache -type f -name *.cs)",
+      "Read(//c/Users/qlsl9042/**)",
+      "Bash(find . -name *.cs -type f)",
+      "Bash(grep -r GameDataManager /c/Users/qlsl9042/AppData/Roaming/r2modmanPlus-local/GTFO/profiles/vanilla-2/BepInEx/plugins --include=*.dll -a)",
+      "Bash(grep -r GameDataBlockBase /c/Users/qlsl9042/Documents/GTFO-MODE --include=*.cs)",
+      "WebSearch",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:raw.githubusercontent.com)"
+    ]
+  }
+}

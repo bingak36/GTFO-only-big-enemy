@@ -6,15 +6,17 @@ using HarmonyLib;
 namespace BigEnemyMode
 {
     [BepInPlugin(MyPluginInfo.PLUGIN_GUID, MyPluginInfo.PLUGIN_NAME, MyPluginInfo.PLUGIN_VERSION)]
+    [BepInProcess("GTFO.exe")]
     public class Plugin : BasePlugin
     {
-        new internal static ManualLogSource Log = null!;
+        internal static new ManualLogSource Log = null!;
         private Harmony? _harmony;
 
         public override void Load()
         {
             Log = base.Log;
-            Log.LogInfo("BigEnemyMode 로드됨 - 스트라이커/슈터가 빅 버전으로 교체됩니다.");
+            Log.LogInfo($"{MyPluginInfo.PLUGIN_NAME} v{MyPluginInfo.PLUGIN_VERSION} 로드됨");
+            Log.LogInfo("스트라이커 → 빅 스트라이커, 슈터 → 빅 슈터로 교체됩니다.");
 
             _harmony = new Harmony(MyPluginInfo.PLUGIN_GUID);
             _harmony.PatchAll();
@@ -25,6 +27,7 @@ namespace BigEnemyMode
         public override bool Unload()
         {
             _harmony?.UnpatchSelf();
+            Log.LogInfo($"{MyPluginInfo.PLUGIN_NAME} 언로드됨.");
             return base.Unload();
         }
     }

@@ -3,40 +3,63 @@ using System.Collections.Generic;
 namespace BigEnemyMode
 {
     /// <summary>
-    /// GTFO EnemyDataBlock 의 persistentID 값 정의.
-    ///
-    /// 게임 내 실제 ID는 아래 방법으로 확인할 수 있습니다:
-    ///   1. GTFO 설치 폴더 > GameData_* > EnemyDataBlock.json 열기
-    ///   2. 각 항목의 "persistentID" 값 확인
-    ///
-    /// GTFO R8 기준 일반적으로 알려진 ID (버전에 따라 다를 수 있음):
+    /// GTFO EnemyDataBlock persistentID 정의 (현재 버전 기준)
+    /// 출처: GameData_EnemyDataBlock_bin.json
     /// </summary>
     public static class EnemyIDs
     {
-        // ─── 스트라이커 계열 ───────────────────────────────────────────
-        /// <summary>일반 스트라이커 (Baby Striker 포함 가능)</summary>
-        public const uint Striker        = 20u;
+        // ─── 일반 스트라이커 ──────────────────────────────────────────────
+        public const uint Striker_Wave         = 13u;
+        public const uint Striker_Patrol       = 32u;
+        public const uint Striker_Wave_Fast    = 31u;
+        public const uint Striker_Hibernate    = 24u;
+        public const uint Striker_Hibernate2   = 70u;
+        public const uint Striker_Bullrush     = 30u;
+        public const uint Striker_Berserk      = 53u;
 
-        /// <summary>빅 스트라이커</summary>
-        public const uint BigStriker     = 21u;
+        // ─── 빅 스트라이커 ────────────────────────────────────────────────
+        public const uint Striker_Big_Wave      = 16u;
+        public const uint Striker_Big_Hibernate = 28u;
+        public const uint Striker_Big_Bullrush  = 39u;
 
-        // ─── 슈터 계열 ────────────────────────────────────────────────
-        /// <summary>일반 슈터</summary>
-        public const uint Shooter        = 25u;
+        // ─── 일반 슈터 ────────────────────────────────────────────────────
+        public const uint Shooter_Wave      = 11u;
+        public const uint Shooter_Hibernate = 26u;
+        public const uint Shooter_Spread    = 52u;
 
-        /// <summary>빅 슈터</summary>
-        public const uint BigShooter     = 26u;
+        // ─── 빅 슈터 ──────────────────────────────────────────────────────
+        public const uint Shooter_Big = 18u;
 
-        // ─── 교체 매핑 테이블 ─────────────────────────────────────────
-        /// <summary>
-        /// Key: 원본 적 ID, Value: 교체할 적 ID
-        /// 이 딕셔너리가 모드의 핵심 교체 규칙입니다.
-        /// ID가 맞지 않으면 이 값만 수정하면 됩니다.
-        /// </summary>
+        // ─── 쉐도우 ───────────────────────────────────────────────────────
+        public const uint Shadow            = 21u;
+        public const uint Striker_Big_Shadow = 35u;
+
+        // ─── 플라이어 ─────────────────────────────────────────────────────
+        public const uint Flyer     = 42u;
+        public const uint Flyer_Big = 45u;
+
+        // ─── 교체 매핑 테이블 ─────────────────────────────────────────────
         public static readonly Dictionary<uint, uint> ReplacementMap = new()
         {
-            { Striker,  BigStriker  },
-            { Shooter,  BigShooter  },
+            // 스트라이커 → 빅 스트라이커
+            { Striker_Wave,       Striker_Big_Wave      },
+            { Striker_Patrol,     Striker_Big_Wave      },
+            { Striker_Wave_Fast,  Striker_Big_Wave      },
+            { Striker_Hibernate,  Striker_Big_Hibernate },
+            { Striker_Hibernate2, Striker_Big_Hibernate },
+            { Striker_Bullrush,   Striker_Big_Bullrush  },
+            { Striker_Berserk,    Striker_Big_Wave      },
+
+            // 슈터 → 빅 슈터
+            { Shooter_Wave,      Shooter_Big },
+            { Shooter_Hibernate, Shooter_Big },
+            { Shooter_Spread,    Shooter_Big },
+
+            // 쉐도우 → 빅 쉐도우
+            { Shadow, Striker_Big_Shadow },
+
+            // 플라이어 → 빅 플라이어
+            { Flyer, Flyer_Big },
         };
     }
 }
